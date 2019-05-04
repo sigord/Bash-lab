@@ -1,0 +1,6 @@
+#proc2.27
+alias basket="mkdir ~/.basket"
+alias del_basket="echo Введите имя файла;read file_name;mv $file_name ~/.basket"
+alias restore_basket="echo Введите имя востанавливаемого файла;read file_name;mv ~/.basket/$file_name $HOME"
+alias clear_basket="cd ~/.basket;rm -r *"
+#

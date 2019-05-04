@@ -1,0 +1,2 @@
+#7
+alias mkf='echo Enter name&&read N&&touch $N'

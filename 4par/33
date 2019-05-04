@@ -1,0 +1,2 @@
+#33
+grep "/home/" /etc/passwd |sort|cut -f1 -d":"

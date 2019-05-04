@@ -1,0 +1,2 @@
+#13
+ls -l | tr -s ' ' | grep ^'-'* | cut -f9,1 -d' '>spisok&& wc -l <spisok

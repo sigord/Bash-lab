@@ -1,0 +1,3 @@
+#30
+cat filet1|tr "[a-z]" "[A-Z]"|sponge filet1
+cat filet2|tr "[A-Z]" "[a-z]"|sponge filet2

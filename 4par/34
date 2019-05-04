@@ -1,0 +1,2 @@
+#34
+grep "/home/" /etc/passwd | sort | cut -f1 -d":" > WHO; more WHO; wc -l <WHO;wc -l /etc/passwd; rm WHO

@@ -1,0 +1,3 @@
+#21
+users|sed 's/ /\n/'g|sort -u>users
+who|sort -u -t' ' -k1,2

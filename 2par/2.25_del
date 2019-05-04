@@ -1,0 +1,5 @@
+#proc2.25
+echo Введите каталог кторый хотите удалить
+read this_file
+alias del="rm -ri $this_file" 
+#

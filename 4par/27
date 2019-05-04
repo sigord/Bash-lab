@@ -1,0 +1,2 @@
+#27
+cat file1>>fileresult && cat >>fileresult &&cat file2>>fileresult

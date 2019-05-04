@@ -1,0 +1,2 @@
+#23
+sort -k1 -t':' </etc/passwd|cut -f1,2,6 -d':'|grep -v '*'

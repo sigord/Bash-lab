@@ -1,0 +1,5 @@
+#proc2.11
+cd $HOME
+cd flowers
+cp -r ../fruits ../busket
+#

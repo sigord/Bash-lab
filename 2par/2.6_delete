@@ -1,0 +1,19 @@
+#proc2.6_delet
+cd $HOME
+cd fruits
+cd grapes
+rmdir dark
+rmdir green
+cd ..
+rmdir grapes
+rmdir pear
+rmdir apple
+cd ..
+rmdir fruits
+cd flowers
+rmdir rose
+rmdir violet
+rmdir dandelion
+cd ..
+rmdir flowers
+#

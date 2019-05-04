@@ -1,0 +1,4 @@
+#18
+grep -v "st"< /etc/passwd > st_users && wc -l<st_users 
+#or
+grep -vc "st"< /etc/passwd
